@@ -1,0 +1,66 @@
+{
+  "stylusSupremacy.insertColons": false,
+  "stylusSupremacy.insertSemicolons": false,
+  "stylusSupremacy.insertBraces": false,
+  "stylusSupremacy.insertNewLineAroundImports": false,
+  "stylusSupremacy.insertNewLineAroundBlocks": false,
+  "vetur.validation.template": false,
+  "vetur.format.options.tabSize": 2,
+  "vetur.format.options.useTabs": false,
+  "vetur.format.defaultFormatter.css": "prettier",
+  "vetur.format.defaultFormatter.html": "prettyhtml",
+  "vetur.format.defaultFormatter.postcss": "prettier",
+  "vetur.format.defaultFormatter.scss": "prettier",
+  "vetur.format.defaultFormatter.less": "prettier",
+  "vetur.format.defaultFormatter.stylus": "stylus-supremacy",
+  "vetur.format.defaultFormatter.ts": "prettier",
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.renderWhitespace": "none",
+  "prettier.vueIndentScriptAndStyle": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
+  "workbench.iconTheme": "vscode-icons",
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "auto"
+    },
+    "prettyhtml": {
+      "printWidth": 100,
+      "singleQuote": false,
+      "wrapAttributes": false,
+      "sortAttributes": false
+    },
+    "prettier": {
+      "semi": false,
+      "singleQuote": true,
+      "vetur.format.options.useTabs": true
+    }
+  },
+  "eslint.enable": true,
+  "eslint.options": {
+    "extensions": [
+      ".js",
+      ".jsx",
+      ".vue"
+    ]
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "html",
+    "vue"
+  ],
+  "eslint.alwaysShowStatus": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+  }
+}
